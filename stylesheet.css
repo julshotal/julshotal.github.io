@@ -3,9 +3,6 @@ html {
 }
 
 h1 {
-    display: block;
-    margin: auto;
-    width: 50%;
     text-align: center;
     text-decoration: underline;
     text-decoration-color: darkgrey;
@@ -13,7 +10,7 @@ h1 {
 }
 
 p {
-    border: 2em;
+    border: 4em;
     border-color: darkgrey;
     display: block;
     margin: auto;
