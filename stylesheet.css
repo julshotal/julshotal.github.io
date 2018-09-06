@@ -4,11 +4,15 @@ html {
 
 h1 {
     text-align: center;
+    text-decoration: underline;
+    text-decoration-color: darkgrey;
     width: 50%;
     font-family: sans-serif;
 }
 
 p {
+    border: 2em;
+    border-color: darkgrey;
     display: block;
     margin: auto;
     width: 50%; 
