@@ -1,5 +1,10 @@
+html {
+    background-color: lightgray;
+}
+
 h1 {
     text-align: center;
+    width: 50%;
     font-family: sans-serif;
 }
 
