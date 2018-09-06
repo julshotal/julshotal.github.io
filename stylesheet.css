@@ -3,10 +3,12 @@ html {
 }
 
 h1 {
+    display: block;
+    margin: auto;
+    width: 50%;
     text-align: center;
     text-decoration: underline;
     text-decoration-color: darkgrey;
-    width: 50%;
     font-family: sans-serif;
 }
 
