@@ -1,0 +1,94 @@
+body {
+    /*https://pixabay.com/photos/background-texture-grunge-distress-1874580/*/
+    background-color: #1d2123;
+    background-image: url("img/bg.png");
+}
+
+#home {
+    overflow: hidden;
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+
+    text-align: center;
+    font-family: Libre Baskerville;
+    font-size: 72px;
+
+    opacity: .8;
+    color: transparent;
+
+    animation: glow 2s ease infinite forwards;
+}
+
+#num11, #num10, #num8, #num7 {
+    color: black;
+    animation: none;
+
+    opacity: .3;
+    font-size: 90px;
+    font-weight: bold;
+}
+
+#num10 {
+    top: 22%;
+    right: 52%;
+}
+
+#num11 {
+    top: 0%;
+    right: 45%;
+}
+
+#num8 {
+    top: 72%;
+    right: 53%;
+}
+
+#num7 {
+    top: 95%;
+    right: 45%;
+}
+
+
+#bighand {
+    position: fixed;
+    transform-origin: center bottom;
+
+    right: 50px;
+    bottom: 42%;
+    animation: turn 20s linear infinite forwards;
+}
+
+#smallhand {
+    position: fixed;
+    transform-origin: center bottom;
+
+    right: 50px;
+    bottom: 42%;
+    animation:  turn 10s linear infinite forwards;
+}
+
+@keyframes glow {
+    0%   { text-shadow: .5px 0px 10px #11dd35;}
+    10%  { text-shadow: 0px 0px 2px #11dd35;}
+    25%  { text-shadow: .3px 0px 5px #11dd35;}
+    50%  { text-shadow: 0px 0px 10px #11dd35;}
+    75% { text-shadow: .5px 0px 15px #11dd35;}
+    100%  { text-shadow: .3px 0px 10px #11dd35;}
+    75% { text-shadow: .5px 0px 5px #11dd35;}
+    50%  { text-shadow: 0px 0px 2px #11dd35;}
+    25%  { text-shadow: 0px 0px 5px #11dd35;}
+}
+
+@keyframes turn {
+    0%  { transform: rotate(0deg);}
+    14.2%  { transform: rotate(51.4deg);}
+    28.4% { transform: rotate(102.8deg);}
+    42.8% { transform: rotate(154.2deg);}
+    57% { transform: rotate(205.6deg);}
+    71.2% { transform: rotate(257deg);}
+    100% { transform: rotate(360deg);}
+}
