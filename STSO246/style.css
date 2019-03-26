@@ -20,7 +20,7 @@ h1 {
     opacity: .8;
     color: transparent;
 
-    animation: glow 2s ease infinite forwards;
+    animation: glow 4s ease infinite forwards;
 }
 
 #num11, #num10, #num8, #num7 {
