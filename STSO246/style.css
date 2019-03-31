@@ -1,11 +1,12 @@
 body {
     /*https://pixabay.com/photos/background-texture-grunge-distress-1874580/*/
     background-color: #1d2123;
-    background-image: url("img/bg.png");
+    background-image: url("img/bgseamless.png");
 }
 
 #home {
     overflow: hidden;
+    background-image:  url("img/bg.png");
 }
 
 h1 {
@@ -14,13 +15,47 @@ h1 {
     right: 50%;
 
     text-align: center;
-    font-family: Libre Baskerville;
+    font-family: 'Libre Baskerville', sans-serif;
     font-size: 72px;
 
     opacity: .8;
     color: transparent;
 
     animation: glow 4s ease infinite forwards;
+}
+
+h3 {
+    text-align: left;
+    color: #808080;
+    font-size: 18px;
+
+    font-family: 'Crimson Text', sans-serif;
+    padding-left: 20px;
+
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Crimson Text', sans-serif;
+    color: #129a2a;
+    font-size: 18px;
+
+    -webkit-transition: animation 1s;
+    -moz-transition: animation 1s;
+    transition: animation 1s;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #129a2a;
+    animation: glow 4s ease infinite forwards;
+}
+
+#begin {
+    position: absolute;
+    top: 60%;
+    right: 50%;
 }
 
 #num11, #num10, #num8, #num7 {
@@ -69,6 +104,146 @@ h1 {
     right: 50px;
     bottom: 42%;
     animation:  turn 10s linear infinite forwards;
+}
+
+.page {
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+#infoPG {
+    position: fixed;
+    right: 20px;
+    margin: 20px 10px 10px 10px;
+}
+
+#infoPG a {
+    color: #129a2a;
+    margin-right: 20px;
+}
+
+h2 {
+    color: #129a2a;
+    font-family: 'Libre Baskerville', sans-serif;
+    padding: 25px 10px 10px 20px;
+}
+
+#curie, .slideshow {
+    order: 1;
+    height: 650px;
+    margin-left: 20px;
+}
+
+p {
+    order: 2;
+    margin-left: 50px;
+    margin-right: 40px;
+
+    font-family: 'Crimson Text', sans-serif;
+    color: #808080;
+    font-size: 18px;
+}
+
+.slide {
+    width: 400px;
+}
+
+.slideshow p {
+    text-align: left;
+    font-family: 'Crimson Text', sans-serif;
+    color: #808080;
+
+    margin: 0px 0px 0px 0px
+}
+
+ol, ul {
+    margin-left: 50px;
+}
+
+li {
+    font-family: 'Crimson Text', sans-serif;
+    color: #808080;
+    font-size: 18px;
+
+    margin: 10px 10px 10px 10px;
+}
+
+sup {
+    color: #129a2a;
+}
+
+#skeleton {
+    margin: 0 auto;
+}
+
+.marker {
+    position: absolute;
+    z-index: 2;
+    font-size: 25px;
+
+    color: #129a2a;
+    animation: glow 4s ease infinite forwards;
+}
+
+#jaw {
+    left: 44%;
+    margin-top: 95px;
+}
+
+#jugular {
+    left: 47%;
+    margin-top: 145px;
+}
+
+#hair {
+    left: 49%;
+}
+
+#eyes {
+    left: 48%;
+    margin-top: 55px;
+}
+
+#spine {
+    left: 46%;
+    margin-top: 430px;
+}
+
+.detail {
+    position: absolute;
+}
+
+#jawIN {
+    left: 30%;
+    margin-top: 85px;
+    display: none;
+}
+
+#jugIN {
+    left: 53%;
+    margin-top: 145px;
+    display: none;
+}
+
+#hairIN {
+    left: 51%;
+    display: none;
+}
+
+#eyesIN {
+    left: 50%;
+    margin-top: 60px;
+    display: none;
+}
+
+#spineIN {
+    left: 30%;
+    margin-top: 430px;
+    display: none;
 }
 
 @keyframes glow {
