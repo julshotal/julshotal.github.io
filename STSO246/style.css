@@ -208,9 +208,29 @@ sup {
     margin-top: 55px;
 }
 
+#hand {
+    left: 32%;
+    margin-top: 565px;
+}
+
 #spine {
     left: 46%;
     margin-top: 430px;
+}
+
+#lung {
+    left: 49%;
+    margin-top: 250px;
+}
+
+#foot {
+    left: 50%;
+    margin-top: 1100px;
+}
+
+#leg {
+    left: 42%;
+    margin-top: 900px; 
 }
 
 .detail {
@@ -218,13 +238,15 @@ sup {
 }
 
 #jawIN {
-    left: 30%;
-    margin-top: 85px;
+    left: 5%;
+    width: 400px;
+    margin-top: 70px;
     display: none;
 }
 
 #jugIN {
     left: 53%;
+    width: 400px;
     margin-top: 145px;
     display: none;
 }
@@ -241,9 +263,65 @@ sup {
 }
 
 #spineIN {
-    left: 30%;
+    left: 50%;
+    width: 400px;
     margin-top: 430px;
     display: none;
+}
+
+#handIN {
+    display: none;
+    left: 20%;
+    margin-top: 560px;
+}
+
+#lungIN {
+    display: none;
+    left: 52%;
+    margin-top: 252px;
+}
+
+#footIN {
+    display: none;
+    left: 51%;
+    margin-top: 1130px;
+}
+
+#legIN {
+    display: none;
+    left: 15%;
+    margin-top: 900px; 
+    width: 400px;
+}
+
+#lists {
+    display: flex;
+    flex-direction: row;
+}
+
+#nj {
+    order: 1;
+    width: 33%;
+}
+
+#il {
+    order: 2;
+    width: 33%;
+}
+
+#cnc {
+    order: 3;
+    width: 33%
+}
+
+#src {
+    padding-top: 200px;
+    text-align: center;
+    width: 100%;
+}
+
+#state {
+    font-size: 20px;
 }
 
 @keyframes glow {
