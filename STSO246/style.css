@@ -110,6 +110,10 @@ a:hover {
     height: 100vh;
 }
 
+#tragedy {
+    height: 200vh;
+}
+
 .content {
     display: flex;
     flex-direction: row;
