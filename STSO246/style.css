@@ -30,8 +30,7 @@ h3 {
     font-size: 18px;
 
     font-family: 'Crimson Text', sans-serif;
-    padding-left: 20px;
-
+    padding-left: 20px; 
 }
 
 a {
@@ -119,6 +118,22 @@ a:hover {
     flex-direction: row;
 }
 
+.content2 {
+    flex-direction: column;
+}
+
+#slideandp {
+    order: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+#ottawa {
+    order: 2;
+    margin: 60px 10px 10px 15%;
+    width: 500px;
+}
+
 #infoPG {
     position: fixed;
     right: 20px;
@@ -136,9 +151,18 @@ h2 {
     padding: 25px 10px 10px 20px;
 }
 
-#curie, .slideshow {
+#curie, .slideshow, .slideshow {
     order: 1;
-    height: 650px;
+    max-height: 600px;
+    min-height: 100px;
+    width: auto;
+    margin-left: 20px;
+}
+
+#factoryimg {
+    order: 1;
+    max-height: 500px;
+    width: auto;
     margin-left: 20px;
 }
 
@@ -146,13 +170,15 @@ p {
     order: 2;
     margin-left: 50px;
     margin-right: 40px;
+    margin-bottom: 40px;
+    min-width: 200px;
 
     font-family: 'Crimson Text', sans-serif;
     color: #808080;
-    font-size: 18px;
+    font-size: 17px;
 }
 
-.slide, .slideNW {
+.slide, .slideNW, .slideNW2 {
     width: 400px;
 }
 
@@ -268,8 +294,8 @@ sup {
 
 #boneIN {
     width: 400px;
-    left: 15%;
-    margin-top: 250px;
+    left: 12%;
+    margin-top: 240px;
     display: none; 
 }
 
@@ -344,7 +370,7 @@ sup {
 }
 
 #src {
-    padding-top: 200px;
+    padding-top: 150px;
     text-align: center;
     width: 100%;
     color: #808080;
@@ -356,12 +382,12 @@ sup {
 
 #credit {
     font-size: 12px;
-    padding-left: 150px;
+    padding-left: 100px;
     color: #808080;
 }
 
 #seaborg {
-    width: 400px;
+    width: 300px;
     margin-bottom: 20px;
 }
 
@@ -371,6 +397,7 @@ sup {
     font-size: 50px;
     width: 400px;
     margin-right: 20px;
+    margin-bottom: 50px;
 }
 
 @keyframes glow {
