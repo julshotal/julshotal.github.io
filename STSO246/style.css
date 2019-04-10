@@ -134,7 +134,12 @@ a:hover {
     width: 500px;
 }
 
+.slideshow2 img {
+    margin: 0 auto;
+}
+
 #infoPG {
+    background-image: url("img/bgseamless.png");
     position: fixed;
     right: 20px;
     margin: 20px 10px 10px 10px;
@@ -197,7 +202,7 @@ ol, ul {
 li {
     font-family: 'Crimson Text', sans-serif;
     color: #808080;
-    font-size: 18px;
+    font-size: 17px;
 
     margin: 10px 10px 10px 10px;
 }
@@ -370,7 +375,8 @@ sup {
 }
 
 #src {
-    padding-top: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
     width: 100%;
     color: #808080;
