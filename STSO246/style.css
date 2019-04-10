@@ -24,6 +24,12 @@ h1 {
     animation: glow 4s ease infinite forwards;
 }
 
+#btn {
+    margin-left: 45px;
+    text-align: center;
+    color: #129a2a;
+}
+
 h3 {
     text-align: left;
     color: #808080;
