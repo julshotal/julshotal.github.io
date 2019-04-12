@@ -136,8 +136,8 @@ a:hover {
 
 #ottawa {
     order: 2;
-    margin: 60px 10px 10px 15%;
-    width: 500px;
+    margin: 30px 10px 10px 15%;
+    width: 450px;
 }
 
 .slideshow2 img {
@@ -186,7 +186,7 @@ p {
 
     font-family: 'Crimson Text', sans-serif;
     color: #808080;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .slide, .slideNW, .slideNW2 {
@@ -208,7 +208,7 @@ ol, ul {
 li {
     font-family: 'Crimson Text', sans-serif;
     color: #808080;
-    font-size: 17px;
+    font-size: 18px;
 
     margin: 10px 10px 10px 10px;
 }
@@ -232,7 +232,7 @@ sup {
 }
 
 #jaw {
-    left: 44%;
+    left: 43%;
     margin-top: 95px;
 }
 
@@ -292,7 +292,7 @@ sup {
 #jawIN {
     left: 5%;
     width: 400px;
-    margin-top: 70px;
+    margin-top: 40px;
     display: none;
 }
 
@@ -355,7 +355,7 @@ sup {
 
 #legIN {
     display: none;
-    left: 15%;
+    left: 12%;
     margin-top: 900px; 
     width: 400px;
 }
