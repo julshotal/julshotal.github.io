@@ -1,0 +1,57 @@
+body, html {
+    background-color: #2A787A;
+    margin: 0;
+    padding: 0;
+}
+
+.lavaLamp {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    position: absolute;
+}
+
+#sig {
+    width: 200px;
+}
+
+.shp0 {
+    white-space: pre;
+    fill: none;
+    stroke: white;
+    stroke-width: 10;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+#J {
+    stroke-dasharray: 990;
+    stroke-dashoffset: 990;
+    animation-iteration-count: 1;
+    animation: writeJ 4s ease-in 1s forwards;
+}
+
+#H {
+    stroke-dasharray: 1110;
+    stroke-dashoffset: 1110;
+    animation-iteration-count: 1;
+    animation: writeH 4s ease .85s forwards;
+}
+
+@keyframes writeJ {
+    0% {
+        stroke-dashoffset: 990;
+    }
+    50%, 100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes writeH {
+    0%, 50% {
+        stroke-dashoffset: 1110;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
