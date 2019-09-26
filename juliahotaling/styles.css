@@ -2,29 +2,85 @@ body {
   background-image: url("./images/dark.jpg");
   /* https://unsplash.com/photos/4Zaq5xY5M_c */
   /* https://pixabay.com/photos/frond-green-leaves-nature-plant-1869757/ */
+
+  display: inline-grid;
+  margin: 0 auto;
+
+  width: 100vw;
+  min-height: 100vh;
+
+  grid-template-rows: 2fr 1fr auto;
+
+  grid-template-areas: 
+  "h"
+  "n"
+  "f";
+
+  justify-content: center;
 }
 
 #name {
-  margin-top: 200px;
+  display: flex; 
+  flex-direction: column;
+  justify-content: flex-end; 
+  align-items: center;
+  grid-area: h;
+
+  width: 80vw;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  margin: 20px 0px 20px 0px;
+  grid-area: n;
+}
+
+ul {
+  list-style-type: none;
+  margin: 20px 0px 0px 0px;
+  padding: 0;
+
+  text-align: center;
+}
+
+li {
+  display: inline;
+  margin: 0px 20px 0px 20px;
+  color: #eb3b10;
+  
+  font-size: 1.5em;
+  font-family: 'Days One', sans-serif;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: f;
+
+  margin: 20px 0px 20px 0px
 }
 
 h1 {
   font-family: 'neoneonregular', sans-serif;
-  font-size: 4em;
-  text-align: center;
   font-weight: lighter;
-  letter-spacing: 27px;
-  margin: 2px 0px 10px 10px;
-
+  margin: 0 auto;
   color: #dcfff5;
-  animation: neon .2s ease-in-out infinite alternate;
 }
 
 #first {
-  margin: 0;
-  letter-spacing: 10px;
-  font-size: 11em;
-  animation: neon .6s ease-in-out infinite alternate;
+  font-size: 13em;
+  animation: neon .4s ease-in-out infinite alternate;
+}
+
+#last {
+  font-size: 7.5em;
+  animation: neon .4s ease-in-out infinite alternate;
 }
 
 /* The switch - the box around the slider */
