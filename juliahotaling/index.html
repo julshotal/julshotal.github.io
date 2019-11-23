@@ -5,33 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="stylesheet" href="./fonts/neonsheet.css" type="text/css" charset="utf-8" /> 
-    <link href="https://fonts.googleapis.com/css?family=Days+One&display=swap" rel="stylesheet">
-    <script src="jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="./fonts/stylesheet.css" type="text/css" charset="utf-8" /> 
+
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Quattrocento&display=swap" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/multiscroll.js/0.2.2/jquery.multiscroll.css" rel="stylesheet">
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+    <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
     <title>Julia Hotaling</title>
 </head>
 <body>
 
-    <div id="name">
-        <h1 id="first">Julia</h1>
-        <h1 id="last">Hotaling</h1>
+    <div id="multiscroll">
+        <div class="ms-left">
+            <div class="ms-section">
+                <h1 id="first">JULIA</h1>
+            </div>
+            <div class="ms-section content">Section 2 Left</div>
+            <div class="ms-section content">Section 3 Left</div>
+            <div class="ms-section content">Section 4 Left</div>
+            <div class="ms-section content">Section 5 Left</div>
+        </div>
+        <div class="ms-right">
+            <div class="ms-section">
+                <h1 id="last">HOTALING</h1><div class="arrow"></div>
+            </div>
+            <div class="ms-section content">Section 2 Right</div>
+            <div class="ms-section content">Section 3 Right</div>
+            <div class="ms-section content">Section 4 Left</div>
+            <div class="ms-section content">Section 5 Left</div>
+        </div>
     </div>
-    <nav>
-        <ul>
-            <li><a href='web.html'>web</a></li>
-            <li><a href='mobile.html'>mobile</a></li>
-            <li><a href='csharp.html'>c#</a></li>
-            <li><a href='design.html'>design</a></li>
-        </ul>
-    </nav>
-
-    <footer>
-        <label class="switch">
-            <input type="checkbox">
-            <span class="slider round"></span>
-        </label>
-    </footer>
 
     <script src='scripts.js'></script>
+    <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/multiscroll.js/0.2.2/jquery.multiscroll.js"></script>
 </body>
 </html>
