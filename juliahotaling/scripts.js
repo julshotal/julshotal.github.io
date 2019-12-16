@@ -1,3 +1,1 @@
-$(document).ready(function() {
-    $('#multiscroll').multiscroll();
-});
+let rellax = new Rellax('.rellax');

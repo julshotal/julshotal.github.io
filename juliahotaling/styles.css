@@ -2,27 +2,20 @@ body {
   background: #141617;
 }
 
-/* li:after, li:before {
-  display: block;
-  content: '';
-  border-bottom: solid 2px black; 
-  transform: scaleX(0);  
-  transition: transform 350ms ease-in-out;
-}
-  
-li:hover:after { transform: scaleX(1); }  */
-
-.content {
-  background-color: #f5f5dc;
-  border: solid 50px #141617;
-  border-radius: 20px;
-}
-
 h1 {
   font-family: 'Oswald', sans-serif;
   font-weight: lighter;
-  font-size: 8em;
+  font-size: 15em;
 } 
+
+.main {
+  height: 100vh;
+}
+
+.project {
+  max-width: 800px;
+  margin: 0 auto;
+}
 
 #first {
   text-align: right;
@@ -31,12 +24,34 @@ h1 {
 }
 
 #last {
-  text-align: left;
+  text-align: right;
   color: black;
 }
 
+#sidebar {
+  margin-left: 20px;
+  padding-left: 10px;
+  height: 100%;
+  z-index: 2;
+}
+
+#sidebar button {
+  background: none;
+  border:  none;
+  padding: 20px 0px 20px 0px;
+  font-size: 1em;
+  color: #f5f5dc;
+}
+
+.section {
+  position: absolute;
+  font-size: 20vh;
+  text-align: center;
+  opacity: 40%;
+ }
+
 .arrow::before{
-  content: '⮟';
+  content: '⌄';
   color: #f5f5dc;
   position: absolute;
   opacity: 0.8;
