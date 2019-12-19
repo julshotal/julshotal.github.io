@@ -19,13 +19,13 @@ h1 {
   display: none;
 }
 
-#menu {
+.menu {
   list-style: none;
   display: flex;
   flex-direction: row;
 }
 
-#menu li a {
+.menu li a {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.2em;
   margin: 0px 40px 0px 40px;
@@ -36,7 +36,7 @@ h1 {
   color: #f5f5f5;
 }
 
-#menu li a:before {
+.menu li a:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -52,7 +52,7 @@ h1 {
   transition: all .5s ease-in-out 0s;
 }
 
-#menu li a:hover:before {
+.menu li a:hover:before {
   color: #f5f5f5;
   visibility: visible;
 
@@ -68,7 +68,7 @@ h1 {
 
 .projIMG {
   position: absolute;
-  max-width: 90%;
+  max-width: 95%;
   margin-left: 20px;
 }
 
@@ -83,9 +83,10 @@ h1 {
 }
 
 .proj {
-  min-height: 100vh;
+  min-height: 80vh;
   margin-left: 50px;
   margin-right: 50px;
+  margin-bottom: 10px;
 }
 
 .btn-green {
@@ -104,6 +105,21 @@ h1 {
 .btn-green:hover {
   color:#f5f5f5; 
   background-color: #016950;
+}
+
+footer {
+  background-color: black;
+  color: #f5f5f5;
+}
+
+.contactIMG img {
+  max-width: 50px;
+  margin: 10px 20px 10px 20px;
+  transition: 1s;
+}
+
+.contactIMG img:hover {
+  transform: scaleX(1.2) scaleY(1.2);
 }
 
 .arrow::before{

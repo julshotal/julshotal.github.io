@@ -13,16 +13,20 @@
     <link rel="stylesheet" href="./fonts/stylesheet.css" type="text/css" charset="utf-8" />
 
     <title>Julia Hotaling</title>
+    <script> 
+        $(document).ready(function() {
+            $("body").tooltip({ selector: '[data-toggle=tooltip]' });
+        });
+    </script>
 </head>
 <body>
     
-
     <div class="container-fluid">
         <div class="row justify-content-start">
             <h1>JULIA</h1>
         </div>
         <div class="row justify-content-start">
-            <ul id="menu">
+            <ul class="menu">
                 <li><a href="./web.html">web</a></li>
                 <li><a href="./mobile.html">mobile</a></li>
                 <li><a href="./csharp.html">C#</a></li>

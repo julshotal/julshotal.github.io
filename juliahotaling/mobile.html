@@ -4,10 +4,111 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ 
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Quattrocento&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Permanent+Marker&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <title>Julia Hotaling</title>
+    <link rel="stylesheet" href="./fonts/stylesheet.css" type="text/css" charset="utf-8" />
+
+    <title>JH: Mobile</title>
 </head>
 <body>
+    <div class="container-fluid">
+
+        <div class="row justify-content-center align-items-center secHead">
+            <div class="col rellax" data-rellax-speed="5">
+                 <h1 class="pgH">MOBILE</h1>
+            </div>
+            <div class="col-2 rellax" data-rellax-speed="-2">
+                <div class="arrow"></div>
+            </div>
+            <div class="col">
+               <!---do sticky nav using scrollspy and affix-->
+            </div>
+        </div>
+
+        <!--muse-->
+        <div class="row justify-content-center align-items-center proj" id="shd">
+            <div class="col rellax" data-rellax-speed="3">
+                <img class="projIMG" src="./images/shmood.png">
+            </div>
+
+            <div class="col rellax" data-rellax-speed="1">
+                <div class="card bg-dark mb-3 project">
+                    <div class="card-header">.swift</div>
+                    <div class="card-body">
+                        <h5 class="card-title">MUSÉ</h5>
+                        <p class="card-text">This app allows users to view a selection of 100 exhibits per collection at the Metropolitan Museum of Art. After selectin an exhibit, basic information on it is displayed along with a web view of it's page on the MET's website.</p>
+
+                        <h5 class="card-title">Made with:</h5>
+                        <p class="card-text">Swift, XCode, Photoshop, and The Metropolitan Museum of Art Collection API</p>
+                    </div> 
+                    <div class="card-footer text-center"> 
+                            
+                          <button class="btn btn-green btn-sm float-left"> 
+                              <a href="https://github.com/julshotal/IGME340-Project2/tree/master/Hotaling_Project2">Repo</a>
+                          </button> 
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <!--575-->
+        <div class="row justify-content-center align-items-center proj" id="cc">
+            <div class="col rellax" data-rellax-speed="1">
+                <div class="card bg-dark mb-3 project">
+                    <div class="card-header">.swift</div>
+                    <div class="card-body">
+                        <h5 class="card-title">575</h5>
+                        <p class="card-text">575 is a magnetic poetry app where users can choose from 4 nature-themed word sets and drag/delete individual words to write poems. The background image of the app can be uploaded by the user, and the share button allows users to share their creations. In addition, RiTa.js is used for a syllable-checker popup.</p>
+
+                        <h5 class="card-title">Made with:</h5>
+                        <p class="card-text">Swift, XCode, Photoshop, and RiTa.js </p>
+                    </div> 
+                    <div class="card-footer text-center"> 
+                            
+                            <button class="btn btn-green btn-sm float-left"> 
+                                <a href="https://github.com/julshotal/IGME340-Project1">Repo</a>
+                            </button> 
+                    </div> 
+                </div>
+            </div>
+            <div class="col align-items-start">
+                <img class="projIMG rellax" src="./images/cc1.png" data-rellax-speed="3">
+                <img class="projIMG rellax" src="./images/cc2.png" data-rellax-speed="1.5">
+                <img class="projIMG rellax" src="./images/cc3.png" data-rellax-speed="2.5">
+            </div>
+        </div>
+        
+        <div class="row justify-content-center">
+            <ul class="menu">
+                <li><a href="./web.html">web</a></li>
+                <li><a href="./mobile.html">mobile</a></li>
+                <li><a href="./csharp.html">C#</a></li>
+                <li><a href="./design.html">design</a></li>
+                <li><a href="./design.html">about</a></li>
+            </ul>
+        </div>
+        <footer class="card bg-dark mb-3 contact">
+            <div class="card-body bg-dark text-center contactIMG ">
+                <a href="https://github.com/julshotal"><img src="./images/github.png"></a>
+                <a href="https://www.linkedin.com/in/julia-hotaling/"><img src="./images/IN.png"></a>
+                <img src="./images/mail.png" data-toggle="tooltip" data-placement="top" title="juliahotaling@gmail.com">
+                <img src="./images/phone.png" data-toggle="tooltip" data-placement="top" title="(301) 401 0999">
+            </div>
+            <div class="card-footer bg-dark text-center">
+                <small>Julia Hotaling &copy; 2019</small>
+            </div>
+        </footer>
+
+    </div>
     
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/rellax/1.10.0/rellax.js'></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src='scripts.js'></script>
 </body>
 </html>
