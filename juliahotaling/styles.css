@@ -90,7 +90,7 @@ h1 {
 }
 
 .btn-green {
-  margin-right: 10px;
+  margin: 5px 5px 5px 5px;
   transition: .5s;
 
   background-color: #009B77; 
@@ -132,6 +132,21 @@ footer {
   text-align: center;
   left: 50%;
   animation: bounce 1s ease infinite;
+}
+
+#finalCard {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 80px;
+  color:#f5f5f5; 
+}
+
+#me {
+  max-width: 600px;
 }
 
 @keyframes bounce {

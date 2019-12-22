@@ -17,67 +17,64 @@
 <body>
     <div class="container-fluid">
 
-        <div class="row secHead">
-            <div class="col justify-self-center align-self-center " data-rellax-speed="5">
-                 <img src="">
+        <div class="row justify-content-center align-items-center secHead">
+            <div class="col" data-rellax-speed="5">
+                 <img src="./images/me.jpg" id="me">
             </div>
-            <div class="col justify-self-left align-self-start  rellax" data-rellax-speed="-2">
-                <h1 class="pgH" style="font-size:9vw;">About Me</h1>
-                <p></p>
+            <div class="col rellax" data-rellax-speed="-2">
+                <h1 class="pgH" style="font-size:9vw; text-align: left;">About Me</h1>
+                <p id="about">I'm a third year New Media Interactive Development student at the Rochester Institute of Technology. With a major that marries design and technical skills, my goal in all my work is to live up to our motto - "code compelling experiences". </p>
             </div>
-            <div class="col-2 justify-self-center align-self-center rellax" data-rellax-speed="-2">
+            <div class="col-2 rellax" data-rellax-speed="-2">
                 <div class="arrow"></div>
             </div>
         </div>
 
-        <!--asteroids-->
-        <div class="row justify-content-center align-items-center proj" id="ast">
-            <div class="col rellax" data-rellax-speed="3">
-                <img class="projIMG" src="./images/lizard.png">
-            </div>
-
+       
+        <div class="row justify-content-center align-items-center proj">
             <div class="col rellax" data-rellax-speed="1">
-                <div class="card bg-dark mb-3 project">
-                    <div class="card-header">.cs</div>
+                <div class="card bg-dark mb-3 project" id="finalCard">
+                    <div class="card-header"></div>
                     <div class="card-body">
-                        <h5 class="card-title">Bug Destroyer</h5>
-                        <p class="card-text">A remake of the beloved arcade game Asteroids, the player controls a lizard using the keyboard to destroy the bugs on screen. When hit, each bug breaks into three smaller ones. The size of the bug hit gains the player different points, but being hit will cost them one of their three lives.</p>
-
-                        <h5 class="card-title">Made with:</h5>
-                        <p class="card-text">Unity 2D, C#, Photoshop</p>
+                        <h5 class="card-title">Fun Facts</h5>
+                        <p class="card-text">
+                            <ul>
+                                <li> The green color on this site is Pantone's Color of the Year 2013, Emerald</li>
+                                <li> I've done digital art as a hobby since I was 13, and still use the same download of Photoshop Elements</li>
+                                <li> My birthday is all one number - 9/9/99</li>
+                                <li> I learned about RIT from a wrestling movie we watched in an ASL class (The Hammer, 2010)</li>
+                            </ul>
+                        </p>
                     </div> 
                     <div class="card-footer text-center"> 
-                            
-                          <button class="btn btn-green btn-sm float-left"> 
-                              <a href="https://github.com/julshotal/IGME340-Project2/tree/master/Hotaling_Project2">Repo</a>
-                          </button> 
+                        <button class="btn btn-green btn-sm float-left"> 
+                            <a href="https://dixonandmoe.com/rellax/">Rellax</a>
+                        </button> 
+                        <button class="btn btn-green btn-sm float-left"> 
+                            <a href="https://techsini.com/multi-mockup/">Responsive Mockups</a>
+                        </button> 
+                        <button class="btn btn-green btn-sm float-left"> 
+                            <a href="https://pixabay.com/illustrations/iphone-x-iphone-x-vector-iphone-4515390/">IPhone Vector</a>
+                        </button> 
+                        <button class="btn btn-green btn-sm float-left"> 
+                            <a href="https://freesvg.org/mail-icon-white-on-grey">Mail Icon</a>
+                        </button>       
+                        <button class="btn btn-green btn-sm float-left"> 
+                            <a href="https://www.iconfinder.com/icons/294706/circle_linkedin_icon">LinkedIn Icon</a>
+                        </button> 
+                        <button class="btn btn-green btn-sm float-left"> 
+                            <a href="https://icons-for-free.com/github+icon-1320168274457504277/">Github Icon</a>
+                        </button>            
+                        <button class="btn btn-green btn-sm float-left"> 
+                            <a href="https://freesvg.org/phone-call-icon-vector-image">Phone Icon</a>
+                        </button>  
+                        <button class="btn btn-green btn-sm float-left"> 
+                            <a href="https://www.pantone.com/color-intelligence/color-of-the-year/color-of-the-year-2013">Pantone</a>
+                        </button>      
                     </div> 
                 </div>
             </div>
-        </div>
-        <!--humans vs zombies-->
-        <div class="row justify-content-center align-items-center proj" id="cc">
-            <div class="col rellax" data-rellax-speed="1">
-                <div class="card bg-dark mb-3 project">
-                    <div class="card-header">.cs</div>
-                    <div class="card-body">
-                        <h5 class="card-title">Humans vs Zombies: Underwater</h5>
-                        <p class="card-text">This 3D simulation uses autonomous agents to mimic predator/prey behavior. Different forces of seeking vs fleeing act on the sharks and minnows, as well as the desire to avoid obstacles. When a minnow is caught by a shark, it becomes another shark.</p>
 
-                        <h5 class="card-title">Made with:</h5>
-                        <p class="card-text">Unity 3D, C#, Photoshop </p>
-                    </div> 
-                    <div class="card-footer text-center"> 
-                            
-                            <button class="btn btn-green btn-sm float-left"> 
-                                <a href="https://github.com/julshotal/IGME340-Project1">Repo</a>
-                            </button> 
-                    </div> 
-                </div>
-            </div>
-            <div class="col align-items-start">
-                <img class="projIMG rellax" src="./images/svsm.png" data-rellax-speed="3">
-            </div>
         </div>
         
         <div class="row justify-content-center">
@@ -86,7 +83,7 @@
                 <li><a href="./mobile.html">mobile</a></li>
                 <li><a href="./csharp.html">C#</a></li>
                 <li><a href="./design.html">design</a></li>
-                <li><a href="./design.html">about</a></li>
+                <li><a href="./about.html">about</a></li>
             </ul>
         </div>
         <footer class="card bg-dark mb-3 contact">
